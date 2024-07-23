@@ -16,7 +16,7 @@ spec:
         app: k8-go-web-app
     spec:
       containers:
-      - name: k8-go-web-app
+      - name: goweb
         image: dasotd/goweb
         ports:
         - containerPort: 8087
