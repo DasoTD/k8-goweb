@@ -1,0 +1,15 @@
+# Service for the application
+apiVersion: v1
+kind: Service
+metadata:
+  name: k8-go-web-app
+  labels:
+    app: k8-go-web-app
+spec:
+  ports:
+  - port: 80
+    targetPort: 8080
+    protocol: TCP
+  selector:
+    app: k8-go-web-app
+  type: ClusterIP
