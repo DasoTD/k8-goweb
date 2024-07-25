@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: goweb
-        image: dasotd/goweb
+        image: dasotd/goweb:{{ .Values.image.tag }}
         ports:
         - containerPort: 8087
