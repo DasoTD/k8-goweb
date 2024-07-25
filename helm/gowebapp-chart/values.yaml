@@ -8,7 +8,7 @@ image:
   repository: dasotd/goweb
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10093300179"
+  tag: "10094422262"
 
 ingress:
   enabled: false
